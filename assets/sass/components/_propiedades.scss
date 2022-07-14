@@ -1,0 +1,29 @@
+.propiedades {
+
+  &__img {
+    object-fit: cover;
+    max-width: 300px;
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius: 1em;
+  }
+
+  &__box {
+    margin-top: 0.5em;
+  }
+
+  &__dato {
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0.5em auto;
+
+    &-interior {
+      margin: 0 0.5em;
+    }
+  }
+
+  &__detalle {
+    margin-bottom: 1em;
+    font-size: 0.7rem;
+  }
+}

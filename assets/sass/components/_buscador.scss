@@ -1,0 +1,11 @@
+.buscador {
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em 0;
+
+  &__input {
+    padding: 0.25em 0.5em;
+    margin: 0 0.5em;
+    width: 100px;
+  }
+}

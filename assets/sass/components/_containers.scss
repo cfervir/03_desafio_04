@@ -1,0 +1,42 @@
+.container {
+  max-width: calc(300px * 3 + 5em);
+  margin: 0 1em;
+  text-align: center;
+
+  @media (min-width: 1000px) {
+    margin: 0 auto;
+  }
+
+  &--flex {
+    display: flex;
+  }
+
+  &--header {
+    padding: 0.5em 0 0; 
+  }
+
+  &--buscador {
+    margin: 0.75em 0 1em;
+  }
+
+  &--main {
+    padding-bottom: 1em;
+
+      &-int {
+      background-color: #ffffff;
+      border-radius: 1em;
+      padding: 1em;
+    }
+  }
+
+  &--viviendas {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  &--propiedad {
+    flex-direction: column;
+    max-width: 300px;
+  }
+}

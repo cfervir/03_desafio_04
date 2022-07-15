@@ -78,7 +78,7 @@ let lasViviendas = (arrayViviendas = vivienda) => {
 };
 
 const nuevaBusqueda = document.getElementById('buscarViviendas');
-nuevaBusqueda.addEventListener('click', () => { buscarViviendas();  });
+nuevaBusqueda.addEventListener('click', () => { buscarViviendas(); });
 
 const buscarViviendas = () => {
 
